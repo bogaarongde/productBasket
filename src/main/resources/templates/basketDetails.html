@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Basket Details</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <h1>Basket Products</h1>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="product : ${products}">
+      <td th:text="${product.productName}"></td>
+      <td th:text="${product.price}"></td>
+    </tr>
+    </tbody>
+  </table>
+
+  <!-- Back Button -->
+  <a href="/baskets" class="btn btn-info">Back to Baskets</a>
+</div>
+</body>
+</html>
