@@ -1,5 +1,9 @@
-package hu.gde.productBasket;
+package hu.gde.productBasket.controller;
 
+import hu.gde.productBasket.model.BasketEntity;
+import hu.gde.productBasket.repository.BasketRepository;
+import hu.gde.productBasket.model.ProductEntity;
+import hu.gde.productBasket.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

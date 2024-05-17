@@ -1,5 +1,6 @@
-package hu.gde.productBasket;
+package hu.gde.productBasket.model;
 
+import hu.gde.productBasket.model.ProductEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

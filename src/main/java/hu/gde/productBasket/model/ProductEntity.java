@@ -1,4 +1,4 @@
-package hu.gde.productBasket;
+package hu.gde.productBasket.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
